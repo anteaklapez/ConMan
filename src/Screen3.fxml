@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="756.0" prefWidth="1349.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controler">
+   <children>
+      <ImageView fitHeight="756.0" fitWidth="1349.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgs/SettingsScreen.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="sliderMusic" layoutX="533.0" layoutY="276.0" onMouseDragged="#onSlideMusic" prefHeight="14.0" prefWidth="459.0" />
+      <Slider fx:id="sliderEffects" layoutX="533.0" layoutY="354.0" onMouseDragged="#onSlideEffects" prefHeight="14.0" prefWidth="459.0" />
+      <Text fill="WHITE" layoutX="371.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Music">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="361.0" layoutY="374.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Effects">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="575.0" layoutY="570.0" onMouseClicked="#onClickMenu" onMouseEntered="#onHoverMenu" onMouseExited="#onExitMenu" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgs/Menu.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblMusicVolume" layoutX="1033.0" layoutY="268.0" textFill="WHITE" />
+      <Label fx:id="lblEffectsVolume" layoutX="1043.0" layoutY="349.0" textFill="WHITE" />
+   </children>
+</AnchorPane>

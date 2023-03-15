@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="753.0" prefWidth="1349.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controler">
+   <children>
+      <ImageView fitHeight="753.0" fitWidth="1349.0" pickOnBounds="true">
+         <image>
+            <Image url="@imgs/Packman-Loading2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="280.0" fitWidth="434.0" layoutX="72.0" layoutY="377.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgs/background1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="244.0" fitWidth="434.0" layoutX="829.0" layoutY="377.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgs/map2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="62.0" fitWidth="164.0" layoutX="215.0" layoutY="654.0" onMouseClicked="#onClickPrison" onMouseEntered="#onHoverPrison" onMouseExited="#onExitPrison" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgs/Prisson.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="62.0" fitWidth="148.0" layoutX="972.0" layoutY="654.0" onMouseClicked="#onClickDesert" onMouseEntered="#onHoverDesert" onMouseExited="#onExitDesert" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgs/Desert.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="42.0" fitWidth="117.0" layoutX="625.0" layoutY="664.0" onMouseClicked="#onClickMenu" onMouseEntered="#onHoverMenu" onMouseExited="#onExitMenu" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgs/Menu.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

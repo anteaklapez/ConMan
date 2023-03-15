@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="753.0" prefWidth="1349.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controler">
+   <children>
+      <ImageView fitHeight="753.0" fitWidth="1349.0" pickOnBounds="true">
+         <image>
+            <Image url="@imgs/howToScreen.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="159.0" layoutX="1160.0" layoutY="645.0" onMouseClicked="#onClickMenu" onMouseEntered="#onHoverMenu" onMouseExited="#onExitMenu" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgs/Menu.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

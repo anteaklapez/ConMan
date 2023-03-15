@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="753.0" prefWidth="1349.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controler">
+   <children>
+      <ImageView fitHeight="753.0" fitWidth="1349.0" pickOnBounds="true">
+         <image>
+            <Image url="@imgs/Packman-Loading2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="138.0" layoutX="611.0" layoutY="327.0" onMouseEntered="#onHoverCoOp" onMouseExited="#onExitCoOp" onMousePressed="#onClickCoOp" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgs/CoOp.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="166.0" layoutX="611.0" layoutY="480.0" onMouseEntered="#onHoverMulty" onMouseExited="#onExitMulty" onMousePressed="#onClickMulti" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgs/Multy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="138.0" layoutX="611.0" layoutY="553.0" onMouseClicked="#onClickSettings" onMouseEntered="#onHoverSettings" onMouseExited="#onExitSettings" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgs/Settings.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="146.0" layoutX="611.0" layoutY="630.0" onMouseEntered="#onHoverExit" onMouseExited="#onExitExit" onMousePressed="#onClickExit" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgs/Exit.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="153.0" layoutX="611.0" layoutY="404.0" onMouseEntered="#onHoverSingle" onMouseExited="#onExitSingle" onMousePressed="#onClickSingle" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgs/Single.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="77.0" fitWidth="77.0" layoutX="1242.0" layoutY="645.0" onMouseClicked="#onClickHowTo" onMouseEntered="#onHoverHowTo" onMouseExited="#onExitHowTo" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgs/HowTO.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
